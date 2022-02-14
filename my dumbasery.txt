@@ -1,0 +1,20 @@
+uin = input("Alle dagen, Werkdagen of Weekenddagen; ")
+
+if uin.lower() == "alle dagen":
+    counter = 0
+    while counter != 7:
+        print weekdagen(counter)
+        counter + 1
+
+def shit():
+    if uin.lower() == "werkdagen":
+        counter = 0
+        while counter != 5:
+            print weekdagen(counter)
+            counter + 1
+
+    elif uin.lower() == "weekenddagen":
+        counter = 5
+        while counter != 7:
+            print weekdagen(counter)
+            counter + 1
